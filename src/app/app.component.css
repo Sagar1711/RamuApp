@@ -1,0 +1,384 @@
+.containerOutter {
+    background-color: #0071BC;
+    width: 100%;
+    height: 600px;
+    transform-origin: -60px;
+    transform: skewY(-8deg);
+  }
+
+img.titleImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    transform: skewY(8deg);
+    transform-origin: 0;
+}
+
+img.titleImage-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: skewY(8deg);
+    transform-origin: 0;
+    border: 5px solid #474e5d;
+}
+
+img.titleImage-3 {
+    height: 150px;
+    width: auto;
+    right: 10%;
+    top: 50%;
+    transform: skewY(8deg);
+    position: absolute;
+    transform-origin: 0;
+    border: 5px solid #f34891;
+    border-radius: 20%;
+}
+
+img.planet7{
+    position: absolute;
+    width: 10%;
+    top: 60%;
+    left: 20%;
+    border-radius: 10%;
+}
+
+img.hdribbble {
+    position: absolute;
+    transform: rotate(-8deg);
+    right: 10%;
+    width: 30%;
+    top: 55%;
+}
+
+img.cookieMilk {
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    width: 40%;
+    transform: rotate(-8deg);
+}
+
+img.plutonicLove {
+    position: absolute;
+    right: 8%;
+    top: 105%;
+    width: 35%;
+    transform: rotate(-8deg);
+}
+
+img.giveLove {
+    position: absolute;
+    right: 8%;
+    top: 160%;
+    width: 35%;
+    transform: rotate(-8deg);
+}
+
+img.eclipse {
+    position: absolute;
+    width: 35%;
+    top: 210%;
+    left: 8%;
+    transform: rotate(-8deg);
+}
+
+img.plane {
+    position: absolute;
+    left: 6%;
+    top: 135%;
+    width: 40%;
+    transform: rotate(-8deg);
+}
+
+.title::before {
+    content: 'Thanks! Ramona / ';
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Eagle Lake', cursive;
+    width: auto;
+    height: auto;
+    background-color: #f34891;
+}
+
+.description {
+    display: inline-block;
+    width: 60%;
+    top: 10%;
+    background-color: azure;
+    position: absolute;
+    left: 20%;
+    min-height: 60vh;
+    z-index: 10;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 1.5rem;
+}
+
+.description h2 {
+    display: inline-block;
+
+}
+
+.description button {
+    float: right;
+    background-color: #f34891;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.description p {
+    font-size: 2rem;
+    font-family: 'Yesteryear', cursive;
+}
+
+.title::after {
+    content: 'and Sorry I upset You!!!';
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Leckerli One', cursive;
+    width: auto;
+    height: auto;
+    background-color: #f34891; 
+}
+
+h1.title {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: medium;
+}
+   
+  .straight {
+    background-color: rgb(188, 0, 103);
+    color: white;
+    font-family: Arial;
+    transform: skewY(8deg);
+    transform-origin: 0;
+  }
+   
+  .title {
+    color: white;
+    font-family: Arial;
+    padding-top: 5%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.makkiDi{
+    left: 1%;
+    top: 20%;
+    display: inline-block;
+    position: absolute;
+    transform: rotate(-16deg);
+}
+
+.cchd {
+    right: 20%;
+    top: 35vh;
+    display: inline-block;
+    position: absolute;
+    transform: rotate(-16deg);
+}
+
+.dkh {
+    display:inline-block;
+    position: absolute;
+    transform: rotate(-12deg);
+    top: 45vh;
+    right: 30%;
+}
+
+.pub {
+    display: inline-block;
+    position: absolute;
+    transform: rotate(0deg);
+    top: 45vh;
+    right: 40%;
+}
+
+.pub img {
+    width: 10rem;
+    height: auto;
+}
+
+.pub h4 {
+    margin: 0;
+    letter-spacing: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Eagle Lake', cursive;
+    color: #FF355E;
+}
+
+.pub h2 {
+    margin: 0;
+    letter-spacing: 3rem;
+    font-size: 2.2rem;
+    font-family: 'Eagle Lake', cursive;
+    color: #CCFF00;
+}
+
+.dkh h4 {
+    margin: 0;
+    font-family: 'Faster One', cursive;
+    color: #66FF66;
+    font-size: 2rem;
+}
+
+.dkh h2 {
+    margin: 0;
+    font-family: 'Faster One', cursive;
+    color: #CCFF00;
+    font-size: 3rem;
+}
+
+.makkiDi h4{
+    margin: 0;
+    font-family: 'Ultra', serif;;
+    color: #FF9F55;
+    font-size: 2rem;
+}
+
+.cchd h4{
+    margin: 0;
+    font-family: 'Berkshire Swash', cursive;
+    color: gold;
+    font-size: 2rem;
+}
+
+/* The actual timeline (the vertical ruler) */
+
+* {
+    box-sizing: border-box;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
