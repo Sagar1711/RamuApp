@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # RamoApp
+=======
+# Ramo
+>>>>>>> af4c2db843e34a328ab3236ce1b09875ee89c7ca
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
